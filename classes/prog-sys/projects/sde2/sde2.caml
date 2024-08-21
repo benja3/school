@@ -1,0 +1,112 @@
+(*
+Function 2.1: first_duplicate
+
+take in a list and return the first duplicate item found
+*)
+
+let rec first_dup (list1, list2) : int =
+  match list2 with
+  | [] -> -10000
+  | list2 ->
+    if List.mem (List.hd list2) list1 then
+      List.hd list2
+    else
+      first_dup (List.hd list2 :: list1, List.tl list2);;
+
+let first_duplicate (list) : int =
+  first_dup ([], list);;
+
+(*
+Function 2.2: first_nonrepeating
+*)
+
+(*
+let rec first_nonrepeating (lst : int list) : int =
+  match lst with
+  | [] -> -10000
+  | head :: tail ->
+    match tail with
+    | [] -> -10000
+    | tail ->
+      if List.mem head tail then (* head found in the rest of the list *)
+        first_nonrepeating(tail)
+      else
+        head;;
+*)
+
+let rec first_nr (list1, list2) : int =
+  match list2 with
+  | [] -> -10000
+  | head :: tail ->
+    if List.mem head tail || List.mem head list1 then
+      first_nr(head :: list1, tail)
+    else
+      head
+;;
+
+let first_nonrepeating (list) : int =
+  first_nr ([], list);;
+
+
+(* Function 2.3: sumOfTwo *)
+
+let rec search_match ((num : int), (lst : int list), (target : int)) =
+  match lst with
+  | [] -> false
+  | lst ->
+    if List.hd lst + num = target then
+      true
+    else
+      search_match(num, List.tl lst, target)
+;;
+
+let rec sumOfTwo ((list1 : int list), (list2 : int list), (target : int)) =
+  match list1 with
+  | [] -> false
+  | list1 ->
+    if search_match(List.hd list1, list2, target) then
+      true
+    else
+      sumOfTwo(List.tl list1, list2, target)
+;;
+
+(* Function 2.4: take *)
+
+let rec take (num, lst) =
+  if num < 0 then
+    []
+  else
+    match lst with
+    | [] -> []
+    | lst ->
+      if num = 0 then
+        []
+      else
+        List.hd lst :: take (num - 1, List.tl lst)
+
+(* Function 2.5: drop *)
+
+let rec drop (num, lst) =
+  if num < 0 then
+    []
+  else
+    match num, lst with (* can do double match *)
+    | 0, _ -> lst
+    | _, [] -> []
+    | _, _ :: tail -> drop (num - 1, tail)
+
+(* Function 2.6: powerset *)
+
+let rec add_to_all num lst : int list list =
+  match lst with
+    | [] -> []
+    | head :: tail ->
+      (num :: head) :: add_to_all num tail
+;;
+
+let rec powerset lst : int list list =
+  match lst with
+  | [] -> [[]]
+  | head :: tail ->
+    List.append (add_to_all head (powerset tail)) (powerset tail)
+;;

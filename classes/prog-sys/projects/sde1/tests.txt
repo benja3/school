@@ -1,0 +1,260 @@
+[1mtrue.[0m
+
+consult("flowers.pl").
+
+plantassign(4,L).
+
+
+L = [daisies, daisies, daisies, daisies] ;[1m;[0m
+L = [roses, daisies, daisies, daisies] ;[1m;[0m
+L = [petunias, daisies, daisies, daisies] ;[1m;[0m
+L = [daffodils, daisies, daisies, daisies] ;[1m;[0m
+L = [begonias, daisies, daisies, daisies] ;[1m;[0m
+L = [snapdragons, daisies, daisies, daisies] ;[1m;[0m
+L = [marigolds, daisies, daisies, daisies] ;[1m;[0m
+L = [gardenias, daisies, daisies, daisies] ;[1m;[0m
+L = [gladiolas, daisies, daisies, daisies] ;[1m;[0m
+L = [bird_of_paradise, daisies, daisies, daisies] ;[1m;[0m
+L = [lilies, daisies, daisies, daisies] ;[1m;[0m
+L = [azalea, daisies, daisies, daisies] ;[1m;[0m
+L = [buttercup, daisies, daisies, daisies] ;[1m;[0m
+L = [poppy, daisies, daisies, daisies] ;[1m;[0m
+L = [crocus, daisies, daisies, daisies] ;[1m;[0m
+L = [carnation, daisies, daisies, daisies] ;[1m;[0m
+L = [tulip, daisies, daisies, daisies][1m.[0m
+
+plantassign(6,L).
+
+
+L = [daisies, daisies, daisies, daisies, daisies, daisies] ;[1m;[0m
+L = [roses, daisies, daisies, daisies, daisies, daisies] ;[1m;[0m
+L = [petunias, daisies, daisies, daisies, daisies, daisies] ;[1m;[0m
+L = [daffodils, daisies, daisies, daisies, daisies, daisies] ;[1m;[0m
+L = [begonias, daisies, daisies, daisies, daisies, daisies] ;[1m;[0m
+L = [snapdragons, daisies, daisies, daisies, daisies, daisies] ;[1m;[0m
+L = [marigolds, daisies, daisies, daisies, daisies, daisies] ;[1m;[0m
+L = [gardenias, daisies, daisies, daisies, daisies, daisies] ;[1m;[0m
+L = [gladiolas, daisies, daisies, daisies, daisies, daisies] ;[1m;[0m
+L = [bird_of_paradise, daisies, daisies, daisies, daisies, daisies] ;[1m;[0m
+L = [lilies, daisies, daisies, daisies, daisies, daisies] ;[1m;[0m
+L = [azalea, daisies, daisies, daisies, daisies, daisies] ;[1m;[0m
+L = [buttercup, daisies, daisies, daisies, daisies, daisies] ;[1m;[0m
+L = [poppy, daisies, daisies, daisies, daisies, daisies] ;[1m;[0m
+L = [crocus, daisies, daisies, daisies, daisies, daisies] ;[1m;[0m
+L = [carnation, daisies, daisies, daisies, daisies, daisies] ;[1m;[0m
+L = [tulip, daisies, daisies, daisies, daisies, daisies] ;[1m;[0m
+L = [orchid, daisies, daisies, daisies, daisies, daisies] ;[1m;[0m
+L = [chrysanthemum, daisies, daisies, daisies, daisies, daisies] ;[1m;[0m
+L = [dahlia, daisies, daisies, daisies, daisies, daisies] ;[1m;[0m
+L = [geranium, daisies, daisies, daisies, daisies, daisies] ;[1m;[0m
+L = [lavender, daisies, daisies, daisies, daisies, daisies] ;[1m;[0m
+L = [iris, daisies, daisies, daisies, daisies, daisies] ;[1m;[0m
+L = [peonies, daisies, daisies, daisies, daisies, daisies] ;[1m;[0m
+L = [periwinkle, daisies, daisies, daisies, daisies, daisies] ;[1m;[0m
+L = [sunflower, daisies, daisies, daisies, daisies, daisies] ;[1m;[0m
+L = [violet, daisies, daisies, daisies, daisies, daisies] ;[1m;[0m
+L = [zinnia, daisies, daisies, daisies, daisies, daisies] ;[1m;[0m
+L = [daisies, roses, daisies, daisies, daisies, daisies] ;[1m;[0m
+L = [roses, roses, daisies, daisies, daisies, daisies] ;[1m;[0m
+L = [petunias, roses, daisies, daisies, daisies, daisies] ;[1m;[0m
+L = [daffodils, roses, daisies, daisies, daisies, daisies] ;[1m;[0m
+L = [begonias, roses, daisies, daisies, daisies, daisies] ;[1m;[0m
+L = [snapdragons, roses, daisies, daisies, daisies, daisies] ;[1m;[0m
+L = [marigolds, roses, daisies, daisies, daisies, daisies] ;[1m;[0m
+L = [gardenias, roses, daisies, daisies, daisies, daisies] ;[1m;[0m
+L = [gladiolas, roses, daisies, daisies, daisies, daisies] ;[1m;[0m
+L = [bird_of_paradise, roses, daisies, daisies, daisies, daisies] ;[1m;[0m
+L = [lilies, roses, daisies, daisies, daisies, daisies] ;[1m;[0m
+L = [azalea, roses, daisies, daisies, daisies, daisies] ;[1m;[0m
+L = [buttercup, roses, daisies, daisies, daisies, daisies] ;[1m;[0m
+L = [poppy, roses, daisies, daisies, daisies, daisies] ;[1m;[0m
+L = [crocus, roses, daisies, daisies, daisies, daisies][1m.[0m
+
+uniquecheck([roses,daffodils,iris,daisies]).
+
+
+[1mtrue.[0m
+
+uniquecheck([roses,daffodils,iris,roses]).
+
+
+[1;31mfalse.[0m
+
+[0mcolorcheck([daisies,roses,petunias,begonias]).
+
+
+[1mtrue [0m[1m.[0m
+
+colorcheck([daisies,daffodils,roses,petunias,begonias]).
+
+
+[1;31mfalse.[0m
+
+colorcheck([daisies,roses,daffodils,roses,petunias,begonias]).
+
+
+[1mtrue [0m[1m.[0m
+
+sizecheck([orchid,daisies,iris]).
+
+
+[1mtrue [0m[1m.[0m
+
+sizecheck([orchid,daisies,daisies]).
+
+
+[1mtrue [0m[1m.[0m
+
+sizecheck([orchid,iris,daisies]).
+
+
+[1;31mfalse.[0m
+
+sizecheck([orchid,orchid,daisies]).
+
+
+[1mtrue [0m[1m.[0m
+
+wetcheck(4,[roses,daffodils,begonias,azalea]).
+
+
+[1mtrue [0m[1m.[0m
+
+wetcheck(4,[roses,daffodils,crocus,azalea]).
+
+
+[1;31mfalse.[0m
+
+wetcheck(4,[roses,crocus,daffodils,begonias,tulip,azalea]).
+
+
+[1;31mfalse.[0m
+
+wetcheck(6,[roses,crocus,daffodils,begonias,tulip,azalea]).
+
+
+[1mtrue [0m[1m.[0m
+
+writegarden([roses,daffodils,azalea,daisies]).
+
+
+|roses|daffodils|azalea|daisies|
+[1mtrue.[0m
+
+gardenplan(4,L).
+
+
+Starting garden planner...
+|snapdragons|petunias|daisies|roses|
+L = [snapdragons, petunias, daisies, roses] ;[1m;[0m
+|lilies|petunias|daisies|roses|
+L = [lilies, petunias, daisies, roses] ;[1m;[0m
+|buttercup|petunias|daisies|roses|
+L = [buttercup, petunias, daisies, roses] ;[1m;[0m
+|poppy|petunias|daisies|roses|
+L = [poppy, petunias, daisies, roses] ;[1m;[0m
+|geranium|petunias|daisies|roses|
+L = [geranium, petunias, daisies, roses] ;[1m;[0m
+|lavender|petunias|daisies|roses|
+L = [lavender, petunias, daisies, roses] ;[1m;[0m
+|iris|petunias|daisies|roses|
+L = [iris, petunias, daisies, roses] ;[1m;[0m
+|sunflower|petunias|daisies|roses|
+L = [sunflower, petunias, daisies, roses] ;[1m;[0m
+|violet|petunias|daisies|roses|
+L = [violet, petunias, daisies, roses] ;[1m;[0m
+|snapdragons|begonias|daisies|roses|
+L = [snapdragons, begonias, daisies, roses] ;[1m;[0m
+|azalea|begonias|daisies|roses|
+L = [azalea, begonias, daisies, roses] ;[1m;[0m
+|poppy|begonias|daisies|roses|
+L = [poppy, begonias, daisies, roses] ;[1m;[0m
+|chrysanthemum|begonias|daisies|roses|
+L = [chrysanthemum, begonias, daisies, roses] ;[1m;[0m
+|iris|begonias|daisies|roses|
+L = [iris, begonias, daisies, roses] ;[1m;[0m
+|sunflower|begonias|daisies|roses|
+L = [sunflower, begonias, daisies, roses] ;[1m;[0m
+|lilies|gardenias|daisies|roses|
+L = [lilies, gardenias, daisies, roses] ;[1m;[0m
+|azalea|gardenias|daisies|roses|
+L = [azalea, gardenias, daisies, roses] ;[1m;[0m
+|buttercup|gardenias|daisies|roses|
+L = [buttercup, gardenias, daisies, roses] ;[1m;[0m
+|chrysanthemum|gardenias|daisies|roses|
+L = [chrysanthemum, gardenias, daisies, roses] ;[1m;[0m
+|lavender|gardenias|daisies|roses|
+L = [lavender, gardenias, daisies, roses] ;[1m;[0m
+|iris|gardenias|daisies|roses|
+L = [iris, gardenias, daisies, roses] ;[1m;[0m
+|peonies|gardenias|daisies|roses|
+L = [peonies, gardenias, daisies, roses] ;[1m;[0m
+|sunflower|gardenias|daisies|roses|
+L = [sunflower, gardenias, daisies, roses] ;[1m;[0m
+|violet|gardenias|daisies|roses|
+L = [violet, gardenias, daisies, roses] ;[1m;[0m
+|azalea|gladiolas|daisies|roses|
+L = [azalea, gladiolas, daisies, roses] ;[1m;[0m
+|chrysanthemum|gladiolas|daisies|roses|
+L = [chrysanthemum, gladiolas, daisies, roses] ;[1m;[0m
+|iris|gladiolas|daisies|roses|
+L = [iris, gladiolas, daisies, roses][1m.[0m
+
+gardenplan(6,L).
+
+
+Starting garden planner...
+|snapdragons|begonias|daffodils|petunias|daisies|roses|
+L = [snapdragons, begonias, daffodils, petunias, daisies, roses] ;[1m;[0m
+|azalea|begonias|daffodils|petunias|daisies|roses|
+L = [azalea, begonias, daffodils, petunias, daisies, roses] ;[1m;[0m
+|poppy|begonias|daffodils|petunias|daisies|roses|
+L = [poppy, begonias, daffodils, petunias, daisies, roses] ;[1m;[0m
+|chrysanthemum|begonias|daffodils|petunias|daisies|roses|
+L = [chrysanthemum, begonias, daffodils, petunias, daisies, roses] ;[1m;[0m
+|iris|begonias|daffodils|petunias|daisies|roses|
+L = [iris, begonias, daffodils, petunias, daisies, roses] ;[1m;[0m
+|sunflower|begonias|daffodils|petunias|daisies|roses|
+L = [sunflower, begonias, daffodils, petunias, daisies, roses] ;[1m;[0m
+|azalea|snapdragons|daffodils|petunias|daisies|roses|
+L = [azalea, snapdragons, daffodils, petunias, daisies, roses] ;[1m;[0m
+|chrysanthemum|snapdragons|daffodils|petunias|daisies|roses|
+L = [chrysanthemum, snapdragons, daffodils, petunias, daisies, roses] ;[1m;[0m
+|iris|snapdragons|daffodils|petunias|daisies|roses|
+L = [iris, snapdragons, daffodils, petunias, daisies, roses] ;[1m;[0m
+|sunflower|snapdragons|daffodils|petunias|daisies|roses|
+L = [sunflower, snapdragons, daffodils, petunias, daisies, roses] ;[1m;[0m
+|lilies|gardenias|daffodils|petunias|daisies|roses|
+L = [lilies, gardenias, daffodils, petunias, daisies, roses] ;[1m;[0m
+|azalea|gardenias|daffodils|petunias|daisies|roses|
+L = [azalea, gardenias, daffodils, petunias, daisies, roses] ;[1m;[0m
+|buttercup|gardenias|daffodils|petunias|daisies|roses|
+L = [buttercup, gardenias, daffodils, petunias, daisies, roses] ;[1m;[0m
+|chrysanthemum|gardenias|daffodils|petunias|daisies|roses|
+L = [chrysanthemum, gardenias, daffodils, petunias, daisies, roses] ;[1m;[0m
+|lavender|gardenias|daffodils|petunias|daisies|roses|
+L = [lavender, gardenias, daffodils, petunias, daisies, roses] ;[1m;[0m
+|iris|gardenias|daffodils|petunias|daisies|roses|
+L = [iris, gardenias, daffodils, petunias, daisies, roses] ;[1m;[0m
+|peonies|gardenias|daffodils|petunias|daisies|roses|
+L = [peonies, gardenias, daffodils, petunias, daisies, roses] ;[1m;[0m
+|sunflower|gardenias|daffodils|petunias|daisies|roses|
+L = [sunflower, gardenias, daffodils, petunias, daisies, roses] ;[1m;[0m
+|violet|gardenias|daffodils|petunias|daisies|roses|
+L = [violet, gardenias, daffodils, petunias, daisies, roses] ;[1m;[0m
+|azalea|gladiolas|daffodils|petunias|daisies|roses|
+L = [azalea, gladiolas, daffodils, petunias, daisies, roses] ;[1m;[0m
+|chrysanthemum|gladiolas|daffodils|petunias|daisies|roses|
+L = [chrysanthemum, gladiolas, daffodils, petunias, daisies, roses] ;[1m;[0m
+|iris|gladiolas|daffodils|petunias|daisies|roses|
+L = [iris, gladiolas, daffodils, petunias, daisies, roses] ;[1m;[0m
+|sunflower|gladiolas|daffodils|petunias|daisies|roses|
+L = [sunflower, gladiolas, daffodils, petunias, daisies, roses] ;[1m;[0m
+|snapdragons|bird_of_paradise|daffodils|petunias|daisies|roses|
+L = [snapdragons, bird_of_paradise, daffodils, petunias, daisies, roses] ;[1m;[0m
+|azalea|bird_of_paradise|daffodils|petunias|daisies|roses|
+L = [azalea, bird_of_paradise, daffodils, petunias, daisies, roses][1m.[0m
+
+
+[32m% halt
+[0m
