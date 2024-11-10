@@ -61,3 +61,28 @@ include constant lighting source
 keep the image input as similar between runs as possible
 
 see slides for useful matlab functions
+
+## Instructions 
+
+Creating a website to track team progress on google sites 
+
+### Game State Sensor
+
+making a system that can scan an 8.5x11 game board with stickers and identify the shape and color 
+
+using a background subtraction algorithm
+
+should probably take reference photo at the beginning to adapt to lighting and board position changes 
+
+### final project engineering requirements 
+
+team must create a response to the customer requirements on canvas
+
+make a table with customer requirement, engineering requirement, and test 
+
+### Appendix A
+
+create a game_state structure in matlab to store the information necessary to manage the game 
+
+
+
