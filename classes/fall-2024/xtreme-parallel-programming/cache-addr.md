@@ -74,3 +74,8 @@ eliminating metadata frees up space for other things in the CPU
 lscpu shows address sizes accounted for other metadata bits
 
 when loading address, need to know if it is in cache so decode address and check cache
+
+Example:
+- tag: everything left over
+- index: 9
+- offset: 6
