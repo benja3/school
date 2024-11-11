@@ -20,7 +20,9 @@ Two articles on Mussolini's Fascist Italy and Hitler's Nazi Fascism.
 
 A key aspect of both Hitler and Mussolini fascism was creating a unified state by suppressing opposition, military enforcement and extreme nationalism.
 
-To support their nationalist beliefs, these Fascist parties tried to manipulate science so they could argue their claims were grounded in truth. A serious problem with this is that if the science is not grounded in reality, it can only hold for so long before anomalies occur.
+To support their nationalist beliefs, these Fascist parties tried to manipulate science so they could argue their claims were grounded in truth. A serious problem with this is that the new government controlled paradigm becomes a pseudoscience is not grounded in reality.
+
+What some properties of Fascist Science that resemble pseudoscience?
 
 What should individual scientists do if they find themselves being influenced by political groups with fascist qualities?
 
