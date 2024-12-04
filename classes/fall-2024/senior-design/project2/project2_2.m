@@ -3,13 +3,12 @@ close all;
 clear camObject;
 clc;
 
-% create constants with tolerances for RGB values
+% create constants with tolerances for RGhukhB values
 
 
 spaceWidth = 60; %pixels
 spaceHeight = 60; %pixels
 startingCoord = [90 45];
-
 circle_centroid_x = 320;
 circle_centroid_y = 240;
 

@@ -20,9 +20,9 @@ Two articles on Mussolini's Fascist Italy and Hitler's Nazi Fascism.
 
 A key aspect of both Hitler and Mussolini fascism was creating a unified state by suppressing opposition, military enforcement and extreme nationalism.
 
-To support their nationalist beliefs, these Fascist parties tried to manipulate science so they could argue their claims were grounded in truth. The result is a psuedoscientific base.
+To support their beliefs and political agendas, these Fascist parties tried to manipulate science so they could argue their claims were grounded in truth. For example, the Nazi's tried to biologically prove that their Aryan race was superior to others with spoofed science.
 
-Where is the line between manipulated fascist psuedoscience and real science? What are some examples of how the line can be blurred?
+How can modern technologies such as AI and social media be used to advance Fascist Sciences?
 
 What should individual scientists do if they find themselves being influenced by political groups with fascist qualities?
 
