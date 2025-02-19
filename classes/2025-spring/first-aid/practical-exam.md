@@ -14,7 +14,7 @@ Tap them on face and place a hand on their chest or under their nose
 
 Point to two different imaginary people
 
-### Quality CPR (30 compressions)
+### Quality CPR (30 compressions) (2 cycles) 
 
 Depth of at least 2 inches (push as hard as you can)
 
@@ -28,6 +28,8 @@ Use breathing barrier
 
 tilt head past neutral
 
+pinch nose
+
 breaths last 1 second each
 
 look for chest rise
@@ -37,6 +39,8 @@ look for chest rise
 Turn on first thing
 
 Place pads as instructed
+
+plug in after pads placed 
 
 say clear before shock
 
