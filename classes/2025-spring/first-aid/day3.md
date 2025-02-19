@@ -77,6 +77,8 @@ if they can swallow and follow commands, give 325 mg of (only) asprin
 
 ## CPR
 
+goal is to prevent tissue damage while EMS is on their way 
+
 ### Steps
 
 Check scene for safety
@@ -86,6 +88,7 @@ Check person for responsiveness
 If Unresponsive and not breathing, tell someone by name to call 911 and get AED
 
 Start CPR: 1 cycle = 30 chest compressions and 2 rescue breaths
+
 
 ### Chest Compressions
 
@@ -102,3 +105,37 @@ compression depth:
 Rate: 100 - 120
 
 compressions should be smoothe, regular and straight up and down
+
+### Rescue Breaths
+
+use breathing barrier for sanitation
+
+head tilt, chin lift to open the airway
+- adults: past neutral
+- children: slightly past neutral
+
+chin down closes airway, pointing chin up opens airway
+
+pinch patients nose and seal your mouth over theirs
+
+give two breaths that last one second each
+
+watch for chest rising after each breath
+
+### when to stop
+
+obvious sign of life (wakes up, breathing, coughing, communication)
+
+when EMS arrives
+
+AED becomes available
+
+someone offers to switch off giving CPR
+
+if the scene becomes unsafe
+
+
+
+### other info
+
+minimize interruptions to less than 10 seconds
