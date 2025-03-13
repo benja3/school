@@ -326,3 +326,172 @@ Starts at root servers and cascades down
 google.com: start at root and find com -> go to com and find google.com
 
 DNS is a UDP protocol 
+
+
+## 14: Network Attacks
+
+### ARP
+
+Fastest response gets cached 
+
+If an attacker sends their IP before the intended device responds, a man in the middle attack occurs 
+
+ARP implementations are stateless, meaning they immediately dump all recieved data to their cache 
+
+### ARP Cache Poisoning Countermeasures 
+
+Restrict network to trusted users
+
+Check for multiple occurrences of the same MAC on the LAN 
+
+Static ARP tables set by sys admin 
+
+### IP Spoofing 
+
+IP's are always being overwritten in packets by routers. It is easy to spoof and add false IP's because they are never checked. 
+
+Countermeasure: border router can block packets whose source address looks fishy
+
+### TCP Handshake Spoofing 
+
+Protocol uses random initialization of sequence number
+
+Sequence number is used for packet authentication 
+
+If an attacker can find the initial sequence number, can estimate current values 
+
+Attacker needs to know this or their spoofed packets will be discarded immediately
+
+Allows for malicous data to be injected into the TCP payload
+
+### TCP SYN Flooding 
+
+Attacker sends many SYN packets to request a connection
+
+Victim server allocates memory for each and eventaully runs out of resources
+
+countermeasure: block SYNs from the same IP after a certain threshold
+
+### TCP Reset Attack 
+
+If an attacker can find the correct source port and sequence number, they can send a RST packet 
+
+Host will accept sequence numbers within a range: have a 1 in 2^(16 + 32) / W chance to guess right
+- 16 bit port number, 32 bit sequence number
+- divide by window size to model leeway
+
+### TCP Reflection Amplification
+
+Attacker sends spoofed SYN to the server with the victim's source
+
+Server sends a SYN-ACK to the victim
+
+Server continues to send SYN-ACK's because the victim does not respond 
+
+for every one SYN the attacker sends, the victim receives many SYN-ACKs 
+
+### TCP Session Hijacking 
+
+Spoof packet with valid TCP signature (src IP, dest ip, src port, dest port) to make packet indistinguishable from valid
+
+Attacker can silence the origin with a RST 
+
+countermeasure: use TLS 
+
+### DNS Caching 
+
+DNS responses are cached 
+
+Cached data times out after TTL 
+
+Negative queries are also cached 
+
+### DNS Requests 
+
+DNS port is always 53 
+
+Packet contains randomly generated query ID, a flag for request or response, question count, 
+
+A record: IPv4 Address
+
+Question count: number of queries in the DNS packet 
+
+### DNS Response
+
+Intermediate packets do not have an answer field, but contain other nameservers to query 
+
+The final DNS packet is authoritative and has an answer
+
+Authoritative: comes from the server that has the original record
+
+### DNS Security
+
+Users trust the results from DNS
+
+If it gets spoofs, can enable man in the middle attack 
+
+Can poison the cache by spoofing a response 
+
+Glue records: non-authoritative records used to contact next hop
+
+Bailiwick checking: only accept additional records for the domain in the original question
+- foo.com cannot say anyting about com 
+- implemented by all modern DNS servers
+
+To spoof a packet, must change IP of target namespace, set Authoritative to true, make sure the source port is 53, question in query, destination port used by target, query ID
+
+Defenses: randomize destination port and query ID 
+
+### DNSSEC
+
+Adds sender authenticity and integrity to DNS
+
+confidentiality not as important 
+
+Authoritative DNS servers sign DNS responses with public key cryptography 
+
+DNS over TLS is a better approach
+
+## 15: Network Defenses
+
+### Firewall
+
+original firewalls were stateless and blocked stuff based on certain signatures
+
+modern firewalls maintain dynamic state based on network traffic
+
+rule: DROP ALL INBOUND PACKETS TO TCP PORT 445
+
+Uses transport and IP layer information only
+
+Stateful filtering: firewall tracks outgoing connections and allows associated inbound traffic back through
+
+can run on network hardware or individual computers 
+
+Cannot filter at the application level because they do not understand the semantics of the packets 
+- solution: enforce protocol specific policies, virus scanning, injection attack scanning
+
+### Intrustion Detection System (IDS)
+
+Software to monitor network traffic for attacks or policy violation
+
+Detects but does not prevent security incidents 
+
+Violation reported to sercurity management system 
+
+Signature detection: has list of rules and patterns associated with attacks 
+
+Anomaly detection: attempts to learn normal behavior and report deviations
+
+### Virtual Private Network 
+
+How to provide secure communication for non TLS protocols
+
+VPNs create a fake shared network on which traffic is encrypted 
+
+A Remote client such as a phone pairs with the VPN server 
+
+
+
+
+
